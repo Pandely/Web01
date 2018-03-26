@@ -55,3 +55,89 @@ header .logo img{
 	font-weight: 400;
 	font-family: 'Montserrat', sans-serif;
 }
+fieldset{
+	border: 1px solid #08A364;
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+}
+.control{
+	padding: 10px;
+	font-family: 'Indie Flower', cursive;
+
+}
+label{
+	display: block;
+}
+span{
+	color: red;
+}
+input[type=text]:focus{
+	outline: 0 none;
+	border: solid 2px #08A364;
+}
+input[type=submit]{
+	border: 0px;
+	background-color: #00de8b;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.2em;
+	color: white; 
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	box-shadow: 1px 1px 2px black;
+
+}
+input[type=submit]:hover{
+	background-color: #08A364;
+}
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.col-6{
+	width: 50%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.col-offset-2{
+	margin-left: 16.66666667%;
+}
+.col-offset-3{
+	margin-left: 25%;
+}
+.col-sm-8{
+	width: 66.66666667%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.forma{
+	text-transform: none;
+	box-shadow: none;
+	padding: 18px 24px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+		padding-right: 24px;
+		padding-left: 24px;
+	height: 55px;
+	border-color: #e7e7e7;
+		
+}
+.forma .forma-group {
+	margin-bottom: 20px;
+}
+.forma .input-sm{
+	height: 37px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 11px;
+	line-height: 1.6;
+}

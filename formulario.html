@@ -12,54 +12,91 @@
 		</div>
 		<nav class="menu">
 			<ul>
-				<li><a href="index.html" style="text-decoration: none;">Inicio</a></li>
+				<li><a href="index.html" style="text-decoration: none; color: white;">Inicio</a></li>
 				<li>Trayectoria</li>
 				<li>Tour 2017</li>
 				<li>Nuestra Música</li>
 				<li>Suscribete</li>
-				<li> <a href="formulario.html">Reservacion</a></li>
+				<li> <a href="formulario.html" style="text-decoration: none; color: white;">Reservacion</a></li>
 			</ul>
 		</nav>
 	</header>
 	<article>
 		<section>
 			<h1>Aparta una Fecha</h1>
-			<p>Hola mi nombre es Adrian Villalobos, soy el coordinador Ministerial de Evan Craft. Algunos me llaman manager, pero tu puedes ponerme el título que quieras, yo realmente solo estoy para servirles y guiarlos en este proceso. De parte de todo el equipo ministerial de Evan Craft queremos darte las gracias por permitirnos conectar con ustedes. Esto es un formulario para darnos una idea del evento que quieres realizar y de ser posible poder acomodarlo en la mejor fecha del año. Luego de llenar el formulario, quedo a su disposición mediante mi correo Contacto@EvanCraftMusic.Com</p>
-			<div class="colum">
-				<label>NOMBRE</label>
-				<input name="nombre" type="text" class="form-control input-sm">
+			<p>Hola mi nombre es Hiroto, soy el coordinador Ministerial de MusicaCat. Algunos me llaman manager, pero tu puedes ponerme el título que quieras, yo realmente solo estoy para servirles y guiarlos en este proceso. De parte de todo el equipo ministerial de Evan Craft queremos darte las gracias por permitirnos conectar con ustedes. Esto es un formulario para darnos una idea del evento que quieres realizar y de ser posible poder acomodarlo en la mejor fecha del año. Luego de llenar el formulario, quedo a su disposición mediante mi correo Contacto@Music.Com</p>
+			<div class="row">
+				<div class="col-6 col-offset-3 col-sm-8 col-offset-2">
+				<div class="forma">
+					<form id="forma">
+						<div class="row">
+							<div class="col-6">
+								<div class="forma-group">
+								<label>Nombre</label>
+								<input class="forma input-sm" type="text" name="fullname">
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="forma-group">
+								<label>Apellido</label>
+								<input class="forma input-sm" type="text" name="lastname">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<div class="forma-group">
+								<label>Email</label>
+								<input class="forma input-sm" type="text" name="email">
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="forma-group">
+								<label>Fecha del Evento</label>
+								<input class="forma input-sm" type="text" name="fechaevento">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<div class="forma-group">
+								<label>País</label>
+								<input class="forma input-sm" type="text" name="pais">
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="forma-group">
+								<label>Zona</label>
+								<input class="forma input-sm" type="text" name="zona">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<div class="forma-group">
+								<label>Cantidad de Personas</label>
+								<input class="forma input-sm" type="text" name="cantidad">
+								</div>
+							</div>
+						</div>
+						<div class="row-Divt">
+							<div class="col-12">
+								<div class="forma-group">
+									<label>Cuentanos sobre el evento</label>
+									<textarea class="forma-control" placeholder="" name="mensaje"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="forma-group text-center">
+						<a href="javascript:;" class="btn btn-color">Enviar Solicitud</a>
+						</div>
+					</form>
+				</div>
+				</div>
 			</div>
-			<div class="colum">
-				<label>APELLIDO</label>
-				<input name="apellido" type="text" class="form-control input-sm">
-			</div>
-			<div class="colum">
-				<label>EMAIL</label>
-				<input name="email" type="text" class="form-control input-sm">
-			</div>
-			<div class="colum">
-				<label>FECHA DEL EVENTO</label>
-				<input name="fecha" type="text" class="form-control input-sm">
-			</div>
-			<div class="colum">
-				<label>PAIS</label>
-				<input name="pais" type="text" class="form-control input-sm">
-			</div>
-			<div class="colum">
-				<label>ZONA</label>
-				<input name="zona" type="text" class="form-control input-sm">
-			</div>
-			<div class="colum">
-				<label>CANTIDAD DE PERSONAS</label>
-				<input name="n-personas" type="text" class="form-control input-sm">
-			</div>
-			<div class="colum">
-				<label>CUENTANOS SOBRE EL EVENTO</label>
-				<textarea placeholder class="form-control" name="evento"></textarea>
-			</div>
-			<div class="form-group text-center">
-				<a href="javascript:;" class="btn btn-color">Enviar Solicitud</a>
-			</div>
+				
+			
+				
 		</section>
 	</article>
 	<footer></footer>
